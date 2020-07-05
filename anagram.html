@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Anagram</title>
+    <script src="myscript.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Anagram Check</h1><br><br>
+        <form name="dis1">
+            <div class="col-sm-6">
+                <label for=" txt1"><b> String1:</b></label>
+                <input type="text" class="form-control" name="txt1" id="txt1"></div>
+            <div class="col-sm-6">
+               <label for=" txt2"><b> String2:</b></label>
+                <input type="text" class="form-control" name="txt2" id="txt2"></div><br><br><br>
+            <button class="btn btn-success" onclick='x = anagram(document.dis1.txt1.value,document.dis1.txt2.value);if(x)
+  document.getElementById("p2").innerHTML="The given Strings are Anagrams";else document.getElementById("p2").innerHTML="The given Strings are not anagrams";return false;'>check Anagram</button><br><br>
+            <div class="alert alert-warning" id="p2"></div>
+        </form>
+    </div>
+</body>
+
+</html>
+

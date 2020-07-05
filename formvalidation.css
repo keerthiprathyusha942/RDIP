@@ -1,0 +1,20 @@
+ .l {
+            position: absolute;
+            left: 0px;
+            width: 500px;
+        }
+
+        table,
+        td,
+        th {
+            text-align: center;
+        }
+
+        table {
+            width: 75%;
+        }
+
+        td {
+            height: 50px;
+            vertical-align: center;
+        }

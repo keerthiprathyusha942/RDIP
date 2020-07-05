@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Survivor</title>
+	<script src="myscript.js"></script>
+</head>
+<body>
+<div class="one"><h1>WHO WILL SURVIVE?</h1></div><br>
+	<div class="container">
+	<button class="btn"  onclick='x = first();return false;'><b>Click to generate first Number</b></button><br>
+    <input type="text" name="num1" id="num1"><br>
+	<button class="btn"  onclick='y = second();return false;'><b>Click to generate second Number</b></button><br>
+           
+           <input type="text" name="num2" id="num2"><br>
+           <h2><p>OPTIONS : </p></h2>
+	<button class="btn"  onclick='document.getElementById("live").innerHTML = survival(x,y);return false;'><b>Click to know Who Will Survive?</b></button><br>
+	<h2 id="return"></h2>
+	<h2 id="live"></h2>
+</div>
+</body>
+</html> 
